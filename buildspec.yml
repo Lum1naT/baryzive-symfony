@@ -6,6 +6,8 @@ phases:
   pre_build:
     commands:
       - composer install
+      - composer require annotations
+
   build:
     commands:
   post_build:
